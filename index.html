@@ -155,7 +155,170 @@
         </article>
     </div>
 </section>
+<section id="work-experience">
+  <header class="major">
+    <h2>Work Experience</h2>
+  </header>
 
+  <!-- 1) World Bank Group -->
+  <section id="worldbank-experience">
+    <header class="major">
+      <h2>Data Scientist</h2>
+    </header>
+
+    <div class="features">
+      <article style="width: 100%;">
+        <span class="image object">
+          <img src="assets/images/datascience.png" alt="Data Scientist Icon"
+            style="width: 200px; height: 200px; float: left; margin-right: 20px;">
+        </span>
+
+        <div class="content">
+          <h3>The World Bank Group <span style="font-weight: normal;">| Washington, D.C. | Sep 2025 – Present</span></h3>
+          <p>
+            I work as a Data Scientist at the World Bank Group, where I design and deploy scalable enrichment and analytics
+            pipelines that support knowledge discovery, governance, and downstream decision-making across large document
+            collections.
+          </p>
+
+          <ul>
+            <li>
+              <strong>End-to-End Enrichment Pipeline Architecture</strong><br>
+              Architected a Databricks/Spark pipeline on DBFS to process PDFs at scale, including chunking, unified metadata,
+              topic classification, and NER using LLM-based workflows. Enabled 10,000+ documents/day throughput while reducing
+              latency through parallelized, batched execution.
+            </li>
+            <li>
+              <strong>Named Entity Recognition and Entity Ranking</strong><br>
+              Implemented LLM-driven NER with canonicalization (pycountry, rdflib), SHA-256 de-duplication, and confidence scoring.
+              Capped extracted entities at 300 per document (≥ 0.25 confidence) and improved entity relevance precision by ~20–30%.
+            </li>
+            <li>
+              <strong>Hierarchical Topic Modeling and Taxonomy Mapping</strong><br>
+              Built async topic/subtopic extraction using LangChain and Jinja2 prompt templates with SQLAlchemy + BigQuery. Generated
+              adjacency and descendant maps for a 10-level taxonomy to enable hierarchy-aware tagging and achieved >90% topic coverage.
+            </li>
+            <li>
+              <strong>Workflow Automation and Performance Optimization</strong><br>
+              Implemented parallel batching strategies (e.g., ThreadPoolExecutor) to improve throughput, reduce runtime, and support
+              repeatable model execution across multiple channels.
+            </li>
+            <li>
+              <strong>Documentation, Quality Controls, and Maintainability</strong><br>
+              Added structured metadata standards, validation checks, and documentation to support model monitoring, debugging, and
+              consistent downstream analytics usage.
+            </li>
+          </ul>
+
+          <p>
+            This role strengthened my ability to build production-grade analytics workflows and deliver interpretable, business-ready
+            outputs for technical and non-technical stakeholders.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 2) D.C. Witness -->
+  <section id="dcwitness-experience">
+    <header class="major">
+      <h2>Data Intern</h2>
+    </header>
+
+    <div class="features">
+      <article style="width: 100%;">
+        <span class="image object">
+          <img src="assets/images/dashboard.png" alt="Analytics Dashboard Icon"
+            style="width: 200px; height: 200px; float: left; margin-right: 20px;">
+        </span>
+
+        <div class="content">
+          <h3>D.C. Witness <span style="font-weight: normal;">| Washington, D.C. | May 2024 – Aug 2024</span></h3>
+          <p>
+            At D.C. Witness, I supported public safety reporting and research by analyzing large case datasets, building dashboards,
+            and improving database performance to make critical insights easier to access and interpret.
+          </p>
+
+          <ul>
+            <li>
+              <strong>Public Safety Analytics and Deep-Dive Reporting</strong><br>
+              Analyzed 10,000+ homicide case records to identify trends in crime distribution and court proceedings, helping inform
+              reporting, research narratives, and policy-facing insights.
+            </li>
+            <li>
+              <strong>Interactive Dashboards for Non-Technical Users</strong><br>
+              Designed and deployed four dynamic dashboards using Plotly Dash to make complex datasets accessible to journalists and
+              legal researchers. Incorporated user feedback loops to improve clarity, usability, and stakeholder adoption.
+            </li>
+            <li>
+              <strong>Database Optimization and Schema Improvements</strong><br>
+              Collaborated with the development team to redesign the internal case-tracking database. Introduced indexing and schema
+              normalization to reduce data retrieval time by approximately 45%.
+            </li>
+            <li>
+              <strong>Stakeholder Collaboration</strong><br>
+              Worked closely with journalists, researchers, and developers to ensure analytics outputs aligned with real reporting needs
+              and that data pipelines supported consistent, repeatable reporting cycles.
+            </li>
+          </ul>
+
+          <p>
+            This experience improved my ability to combine analytics with storytelling and build dashboards that drive understanding
+            and action for diverse audiences.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 3) Manipal University -->
+  <section id="manipal-experience">
+    <header class="major">
+      <h2>Research Intern</h2>
+    </header>
+
+    <div class="features">
+      <article style="width: 100%;">
+        <span class="image object">
+          <img src="assets/images/research.png" alt="Research Icon"
+            style="width: 200px; height: 200px; float: left; margin-right: 20px;">
+        </span>
+
+        <div class="content">
+          <h3>Manipal University <span style="font-weight: normal;">| Manipal, India | Feb 2022 – Jun 2022</span></h3>
+          <p>
+            As a Research Intern, I developed machine learning and NLP workflows for social media monitoring, focusing on classification
+            performance, dataset construction, and clear presentation of findings.
+          </p>
+
+          <ul>
+            <li>
+              <strong>Extremist Sentiment Classification</strong><br>
+              Built classification models to detect extremist sentiment in Twitter data using SVM and Random Forest with Scikit-learn,
+              achieving an F1-score of 86%.
+            </li>
+            <li>
+              <strong>NLP Pipeline and Dataset Development</strong><br>
+              Processed 50,000+ tweets using tokenization, lemmatization, and TF-IDF vectorization to create a labeled dataset for
+              model training and evaluation.
+            </li>
+            <li>
+              <strong>Research Communication and Academic Impact</strong><br>
+              Presented findings at a university seminar, contributing to broader discussions on AI for misinformation detection and
+              supporting early momentum for a cybersecurity awareness initiative.
+            </li>
+          </ul>
+
+          <p>
+            This role strengthened my fundamentals in applied machine learning, NLP preprocessing, model evaluation, and technical
+            communication.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+</section>
 
 								<!-- Section -->
 								<!-- <section>
@@ -218,6 +381,7 @@
 										<li><a href="#banner">About</a></li>
 										<li><a href="#projects">Projects</a></li>
 										<li><a href="#ta-duties">Graduate Assistantship</a></li>
+										<li><a href="work-experience">Work Experience</a></li>
 									</ul>
 								</nav>
 
@@ -276,3 +440,4 @@
 
 	</body>
 </html> 
+
